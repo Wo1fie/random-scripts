@@ -1,0 +1,1 @@
+[System.Text.Encoding]::ASCII.GetString((Get-SecureBootUefi PK).bytes) -match "DO NOT TRUST|DO NOT SHIP"
